@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.12.1">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Bo">
+            <fields>
+                <field type="STRING" length="255" name="nro_solicitud" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="correoelectronico" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="producto1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="producto2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="ind_analizacompra" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="ind_evaluastock" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="ind_autorizadespacho" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="ind_generaordedespa" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
